@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="icon" href="favicon_io" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>IRA</title>
+</head>
+
+<body>
+  <header>
+    <nav id="navbar">
+      <h1><img src="img/android-chrome-192x192.png" alt="Logo"></h1>
+
+      <ul id="nav_list">
+        <li class="nav-item active">
+          <a href="#home">Inicio</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascript:void(0)">Coleções</a>
+          <div class="dropdown-content" id="dropdown-menu">
+            <a href="#galeria-geek">Geek</a>
+            <a href="#galeria-familia">Família</a>
+            <a href="#galeria-humor">Divertida</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#promocoes">Promoções</a>
+        </li>
+        <li class="nav-item">
+          <a href="#sobre-nos">Sobre Nós</a>
+        </li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button class="btn-flutuante">
+          <a href="https://wa.me/554498733317" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </button>
+        <button id="mobile_menu_button">
+          <i class="fa-solid fa-list"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="content">
+    <div id="shape"></div>
+    <section id="home">
+      <div id="cta">
+        <h1 id="title">Canecas personalizadas que aquecem o coração!</h1>
+        <p class="description">
+          Que tal tomar seu café favorito em uma caneca tão especial quanto
+          você? No @i.r.a_atelie, criamos peças únicas com os seus heróis
+          favoritos fotos inesquecíveis de pais e filhos e muito mais!
+        </p>
+
+        <div id="cta_buttons">
+          <a href="#galeria-geek" class="btn-default"> Ver Canecas </a>
+
+          <a href="https://api.whatsapp.com/send/?phone=5544998733317&text=Oii+gostaria+de+um+or%C3%A7amento+%EF%BF%BD&type=phone_number&app_absent=0"
+            id="phone_button">
+            <button class="btn-default">
+              <i class="fa-solid fa-phone"></i>
+            </button>
+            (44) 99873-3317
+          </a>
+        </div>
+
+        <div class="social-media-buttons">
+          <a
+            href="https://api.whatsapp.com/send/?phone=5544998733317&text=Oii+gostaria+de+um+or%C3%A7amento+%EF%BF%BD&type=phone_number&app_absent=0">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+
+          <a href="https://www.instagram.com/i.r.a_atelie/">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <div id="banner">
+        <img src="img/8.jpg" alt="" />
+      </div>
+    </section>
+
+    <section id="galeria-geek">
+      <h2 class="section-title">Coleção Geek</h2>
+      <h3 class="section-subtitle">Canecas dos seus heróis favoritos</h3>
+
+      <div class="galeria-container">
+        <div class="galeria-item">
+          <img src="img/geek.PNG" alt="Caneca Vingadores" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20Darth%20Vader.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Caneca Darth Vader
+            </a>
+          </p>
+        </div>
+        <div class="galeria-item">
+          <img src="img/geek2.PNG" alt="Caneca Homem-Aranha" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20Yoda.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Caneca Yoda
+            </a>
+          </p>
+        </div>
+        <div class="galeria-item">
+          <img src="img/geek3.PNG" alt="Caneca Capitão América" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20Capitão%20America.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Caneca Capitão América
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria-familia">
+      <h2 class="section-title">Coleção Família</h2>
+      <h3 class="section-subtitle">Canecas para toda a familia</h3>
+
+      <div class="galeria-container">
+        <div class="galeria-item">
+          <img src="img/Familia.PNG" alt="Caneca Pai e Filho" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20Dia%20dos%20Pais.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Caneca Dias dos Pais
+          </p>
+          </a>
+        </div>
+        <div class="galeria-item">
+          <img src="img/familia2.PNG" alt="Caneca Mãe e Filha" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20Dia%20das%20Mães.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Caneca Dias das Mães
+            </a>
+          </p>
+
+        </div>
+        <div class="galeria-item">
+          <img src="img/Certa.PNG" alt="Caneca Família" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20Dos%20Vovos.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Caneca Dos Vovos
+            </a>
+          </p>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="galeria-humor">
+      <h2 class="section-title">Coleção Divertida</h2>
+      <h3 class="section-subtitle">Canecas com frases engraçadas</h3>
+
+      <div class="galeria-container">
+        <div class="galeria-item">
+          <img src="img/engraçada4.PNG" alt="Caneca com frase engraçada" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20para%20o%20Estudante%20Dedicado.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Sem café, sem nota
+            </a>
+          </p>
+        </div>
+        <div class="galeria-item">
+          <img src="img/engraçadas2.PNG" alt="Caneca com frase engraçada" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20nas%20Canecas%20Divertidas.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Só o pó da caneca
+            </a>
+          </p>
+        </div>
+        <div class="galeria-item">
+          <img src="img/engraçadas3.PNG" alt="Caneca com frase engraçada" />
+          <p class="galeria-legenda">
+            <a class="galeria-link"
+              href="https://wa.me/554498733317?text=Olá!%20Estou%20interessado%20na%20Caneca%20para%20Amantes%20do%20Café.%20Poderia%20me%20ajudar?"
+              target="_blank">
+              Riso & café
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="video-produto">
+      <div class="video-container video-esquerda">
+        <div class="video-wrapper">
+          <video muted controls poster="img/qse.PNG">
+            <source src="video/WhatsApp Video 2025-05-13 at 14.04.43.mp4" type="video/mp4">
+            Seu navegador não suporta vídeos HTML5.
+          </video>
+        </div>
+
+        <div class="video-texto">
+          <h3>Novidades</h3>
+          <p>Descubra a nova queridinha das canecas personalizadas, exclusiva criativa e feita pra você! Conheça nossa
+            novidade em canecas personalizadas Dê o play e se
+            apaixone em 30 segundos!</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="promocoes">
+      <h2 class="section-title">Promoções Imperdíveis</h2>
+      <h3 class="section-subtitle">
+        Aproveite nossas ofertas por tempo limitado
+      </h3>
+
+      <div class="promo-container">
+        <div class="promo-item">
+          <div class="promo-tag">COMBO</div>
+          <img src="img/casal.PNG" alt="Promoçao Do Casal" />
+          <div class="promo-details">
+            <p class="promo-name">Promoçao Do Casal</p>
+            <p class="promo-desc">
+              2 canecas personalizadas. "Pague 1 e leve 2"
+            </p>
+            <a href="https://api.whatsapp.com/send/?phone=554498733317&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+Promo%C3%A7ao+Do+Casal+do+site+e+quero+fazer+um+pedido%21&type=phone_number&app_absent=0"
+              class="btn-default promo-btn" target="_blank">
+              Comprar via WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="promo-item">
+          <div class="promo-tag">FRETE GRÁTIS</div>
+          <img src="img/fãclube.PNG" alt="Promoçao Do Fã Clube" />
+          <div class="promo-details">
+            <p class="promo-name">Promoçao Do Fã Clube</p>
+            <p class="promo-desc">Ganhe o frete na compra de duas.</p>
+            <a href="https://api.whatsapp.com/send/?phone=554498733317&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+promo%C3%A7ao+do+f%C3%A3+clube+do+site+e+quero+fazer+um+pedido%21&type=phone_number&app_absent=0"
+              class="btn-default promo-btn" target="_blank">
+              Comprar via WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <div class="promo-item">
+          <div class="promo-tag">20% OFF</div>
+          <img src="img/pets.PNG" alt="Promoçao Pet Lovers" />
+          <div class="promo-details">
+            <p class="promo-name">Promoçao Pet Lovers</p>
+            <p class="promo-desc">
+              Canecas personalizadas com fotos de pets 20% OFF.
+            </p>
+            <a href="https://api.whatsapp.com/send/?phone=554498733317&text=Ol%C3%A1%2C+gostaria+de+saber+mais+sobre+a+promo%C3%A7ao+do+Pet+Lovers+do+site+e+quero+fazer+um+pedido%21&type=phone_number&app_absent=0"
+              class="btn-default promo-btn" target="_blank">
+              Comprar via WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <div id="testimonials_content">
+        <h2 class="section-title">Depoimentos</h2>
+        <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+        <div id="feedbacks">
+          <div class="feedback">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Maria Silva" class="client-avatar" />
+            <div class="feedback-content">
+              <p class="client-name">Maria Silva</p>
+              <p class="client-text">
+                "Atendimento excelente e produto de qualidade superior.
+                Recomendo!"
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="João Oliveira" class="client-avatar" />
+            <div class="feedback-content">
+              <p class="client-name">João Oliveira</p>
+              <p class="client-text">
+                "Entrega rápida e preço justo. Voltarei a comprar com
+                certeza."
+              </p>
+              <div class="stars">★★★★☆</div>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Ana Santos" class="client-avatar" />
+            <div class="feedback-content">
+              <p class="client-name">Ana Santos</p>
+              <p class="client-text">
+                "Produto chegou conforme anunciado e superou minhas
+                expectativas."
+              </p>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre-nos">
+      <div class="sobre-container">
+        <div class="sobre-imagem">
+          <img src="img/caneca2.jpg" alt="Ateliê IRA - Nossa oficina">
+        </div>
+        <div class="sobre-texto">
+          <p>
+            No <strong>Ateliê IRA</strong>, transformamos paixão por
+            personalização em peças únicas que aquecem corações e momentos
+            especiais.
+          </p>
+
+          <p>
+            Fundada em 2024, nossa missão é criar canecas que contam
+            histórias - seja dos seus heróis favoritos, momentos em família
+            ou aquele humor que te define.
+          </p>
+
+          <ul class="sobre-lista">
+            <li>
+              <i class="fas fa-check"></i> Produção artesanal com alta
+              qualidade
+            </li>
+            <li>
+              <i class="fas fa-check"></i> Materiais duráveis e seguros
+            </li>
+            <li>
+              <i class="fas fa-check"></i> Processo de personalização
+              cuidadoso
+            </li>
+            <li><i class="fas fa-check"></i> Atendimento personalizado</li>
+          </ul>
+
+          <div class="sobre-cta">
+            <a href="#galeria-geek" class="btn-default">Ver Nossas Coleções</a>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="footer-section social-section">
+            <h3>Nos siga</h3>
+            <div class="social-icons">
+              <a href="https://www.instagram.com/i.r.a_atelie/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://api.whatsapp.com/send/?phone=5544998733317" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-section copyright">
+            <p>&copy; 2024 IRA Ateliê. Todos os direitos reservados.</p>
+          </div>
+        </div>
+
+        <div class="footer-section faq-section">
+          <h3>Perguntas Frequentes</h3>
+          <div class="faq-item">
+            <button class="faq-question">Como faço meu pedido?</button>
+            <div class="faq-answer">
+              <p>
+                Você pode entrar em contato diretamente pelo WhatsApp ou
+                Instagram para fazer seu pedido personalizado.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">Qual o prazo de entrega?</button>
+            <div class="faq-answer">
+              <p>
+                O prazo médio é de 5 a 7 dias úteis após a confirmação do
+                pedido, podendo variar conforme a demanda.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-question">
+              Vocês enviam para todo o Brasil?
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sim, realizamos envios para todo o território nacional. O
+                frete é calculado de acordo com a localidade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
